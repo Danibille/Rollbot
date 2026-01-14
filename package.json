@@ -1,20 +1,22 @@
 {
-  "name": "discbot",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "scripts": {
-    "dev": "node --env-file .env main.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.27.0",
-  "dependencies": {
-    "discord.js": "^14.25.1"
-  },
-  "devDependencies": {
-    "@types/node": "^25.0.6",
-    "typescript": "^5.9.3"
-  }
+	"name": "discbot",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"scripts": {
+		"dev": "node --env-file .env main.ts",
+		"reg": "node --env-file .env ./bot/registration.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.27.0",
+	"dependencies": {
+		"discord.js": "^14.25.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.3.11",
+		"@types/node": "^25.0.6",
+		"typescript": "^5.9.3"
+	}
 }
