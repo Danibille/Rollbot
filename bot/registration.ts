@@ -13,6 +13,7 @@ await restclient.put(route, {
     new SlashCommandBuilder().setName("d8").setDescription("d8"),
     new SlashCommandBuilder().setName("d10").setDescription("d10"),
     new SlashCommandBuilder().setName("d12").setDescription("d12"),
-    new SlashCommandBuilder().setName("d20").setDescription("d20")
+    new SlashCommandBuilder().setName("d20").setDescription("d20"),
+    new SlashCommandBuilder().setName("d50").setDescription("d50")
     ]
 })

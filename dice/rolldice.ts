@@ -7,6 +7,7 @@ export function rolldice(name: string): number {
     map.set("d10", 10);
     map.set("d12", 12);
     map.set("d20", 20);
+    map.set("d50", 50);
     const face = map.get(name);
     return Math.floor(Math.random() * (face!)) + 1;
 }
