@@ -3,7 +3,7 @@ import {
 	SlashCommandBuilder,
 } from "discord.js";
 import type { BotCommand } from "../bot/commands.ts";
-import { rolldice } from "../dice/rolldice.ts";
+import { rollDice } from "../dice/rolldice.ts";
 
 async function execute(
 	interaction: ChatInputCommandInteraction,
@@ -12,7 +12,7 @@ async function execute(
 	if (!faces) {
 		throw new Error("nao foi");
 	}
-	const result = rolldice(faces.toString());
+	const result = rollDice(faces.toString());
 	await interaction.reply(result.toString());
 }
 

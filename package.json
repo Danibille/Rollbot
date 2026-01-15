@@ -4,7 +4,7 @@
 	"description": "",
 	"type": "module",
 	"scripts": {
-		"dev": "node --env-file .env main.ts",
+		"dev": "tsx --env-file .env --watch main.ts",
 		"reg": "node --env-file .env ./bot/registration.ts"
 	},
 	"keywords": [],
@@ -17,6 +17,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "^2.3.11",
 		"@types/node": "^25.0.6",
+		"tsx": "^4.21.0",
 		"typescript": "^5.9.3"
 	}
 }
