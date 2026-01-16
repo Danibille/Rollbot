@@ -5,7 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "tsx --env-file .env --watch main.ts",
-		"reg": "node --env-file .env ./bot/registration.ts"
+		"reg": "node --env-file .env ./bot/registration.ts",
+		"regprod": "node --env-file .env.prod ./bot/registration.ts"
 	},
 	"keywords": [],
 	"author": "",
