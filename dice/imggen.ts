@@ -17,7 +17,7 @@ function square(ctx: SKRSContext2D, x: number, y: number, value: string) {
 	ctx.stroke();
 
 	//conteudo da caixa
-	ctx.fillStyle = "#ffffff";
+	ctx.fillStyle = "#afafff";
 	ctx.font = "bold 40px sans-serif";
 	ctx.textAlign = "center";
 	ctx.textBaseline = "middle";
@@ -37,7 +37,7 @@ function circle(ctx: SKRSContext2D, x: number, y: number, value: string) {
 	ctx.stroke();
 
 	//conteudo do circulo
-	ctx.fillStyle = "#ffffff";
+	ctx.fillStyle = "#4fb8ff";
 	ctx.font = "bold 40px sans-serif";
 	ctx.textAlign = "center";
 	ctx.textBaseline = "middle";
